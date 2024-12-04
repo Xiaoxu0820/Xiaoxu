@@ -1,0 +1,14 @@
+<div class="product" style="display: flex; align-items: center;">
+    <div style="flex: 1;">
+        <h2><?php echo $row['name']; ?></h2>
+        <p><?php echo $row['description']; ?></p>
+        <p>价格: <?php echo $row['price']; ?></p>
+        <form method="post" action="cart.php">
+            <input type="hidden" name="product_id" value="<?php echo $row['id']; ?>">
+            <input type="submit" value="添加到购物车">
+        </form>
+    </div>
+    <div style="flex: 0 0 auto; margin-left: 20px;">
+        <img src="<?php echo $row['image']; ?>" alt="<?php echo $row['name']; ?>" style="width: 100px; height: 100px; object-fit: cover;">
+    </div>
+</div>
