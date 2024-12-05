@@ -1,0 +1,34 @@
+/shopping_site
+    /uploads
+    /css
+        styles.css
+    /js
+        scripts.js
+    /images
+    /includes
+        db.php
+        header.php
+        footer.php
+        sidebar.php
+    /templates
+        product_item.php
+    index.php                   重定向到shopping_center.php
+    shopping_center.php         购物网站主页
+    register.php
+    login.php
+    logout.php
+    product_list.php            生成商品列表
+    product_list_show.php       显示商品列表的网页
+    cart.php                    用于将商品装入购物车
+    checkout.php
+    order_history.php
+    admin.php
+    admin_login.php
+    upload_avatar.php
+    new_list.php                 新品推荐
+    shopping_cart.php            用于显示购物车内容
+    payment.php                  支付界面
+    complete_payment.php         用于发送确认邮件和结束付款回到主页
+    upload_avatar.php            用于上传用户头像
+    comfirm_order.php            用于确认订单后更新数据库
+    clear_cart.php      
